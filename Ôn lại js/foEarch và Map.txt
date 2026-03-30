@@ -1,0 +1,7 @@
+forearch 
+
+Sửa trực tiếp trong mảng
+
+Map 
+
+Tạo 1 mảng mới xong mới sửa
