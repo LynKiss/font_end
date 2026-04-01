@@ -1,0 +1,146 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "smartphones",
+      "thumbnail": "https://picsum.photos/seed/category-smartphones/400/300"
+    },
+    {
+      "id": 2,
+      "name": "laptops",
+      "thumbnail": "https://picsum.photos/seed/category-laptops/400/300"
+    },
+    {
+      "id": 3,
+      "name": "audio",
+      "thumbnail": "https://picsum.photos/seed/category-audio/400/300"
+    },
+    {
+      "id": 4,
+      "name": "tablets",
+      "thumbnail": "https://picsum.photos/seed/category-tablets/400/300"
+    },
+    {
+      "id": 5,
+      "name": "wearables",
+      "thumbnail": "https://picsum.photos/seed/category-wearables/400/300"
+    },
+    {
+      "id": 6,
+      "name": "cameras",
+      "thumbnail": "https://picsum.photos/seed/category-cameras/400/300"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 14",
+      "description": "Apple smartphone with A15 Bionic chip, bright display, and strong camera performance.",
+      "price": 799,
+      "discountPercentage": 8.5,
+      "rating": 4.8,
+      "stock": 25,
+      "category": "smartphones",
+      "thumbnail": "https://picsum.photos/seed/iphone14/400/300"
+    },
+    {
+      "id": 2,
+      "title": "Samsung Galaxy S23",
+      "description": "Flagship Android phone with smooth display, fast performance, and versatile cameras.",
+      "price": 749,
+      "discountPercentage": 10.2,
+      "rating": 4.7,
+      "stock": 18,
+      "category": "smartphones",
+      "thumbnail": "https://picsum.photos/seed/galaxys23/400/300"
+    },
+    {
+      "id": 3,
+      "title": "Xiaomi Redmi Note 13",
+      "description": "Mid-range smartphone with large screen, solid battery life, and modern design.",
+      "price": 299,
+      "discountPercentage": 12.4,
+      "rating": 4.5,
+      "stock": 42,
+      "category": "smartphones",
+      "thumbnail": "https://picsum.photos/seed/redminote13/400/300"
+    },
+    {
+      "id": 4,
+      "title": "MacBook Air M2",
+      "description": "Lightweight laptop with Apple M2 chip, excellent battery life, and premium build quality.",
+      "price": 1099,
+      "discountPercentage": 6.8,
+      "rating": 4.9,
+      "stock": 12,
+      "category": "laptops",
+      "thumbnail": "https://picsum.photos/seed/macbookairm2/400/300"
+    },
+    {
+      "id": 5,
+      "title": "Dell XPS 13",
+      "description": "Compact premium laptop with sharp display, thin bezels, and reliable performance.",
+      "price": 999,
+      "discountPercentage": 9.1,
+      "rating": 4.6,
+      "stock": 14,
+      "category": "laptops",
+      "thumbnail": "https://picsum.photos/seed/dellxps13/400/300"
+    },
+    {
+      "id": 6,
+      "title": "Sony WH-1000XM5",
+      "description": "Wireless headphones with strong noise cancellation and rich, balanced sound.",
+      "price": 399,
+      "discountPercentage": 11.3,
+      "rating": 4.8,
+      "stock": 30,
+      "category": "audio",
+      "thumbnail": "https://picsum.photos/seed/sonyxm5/400/300"
+    },
+    {
+      "id": 7,
+      "title": "iPad Air",
+      "description": "Slim tablet for work and entertainment with smooth performance and vivid display.",
+      "price": 599,
+      "discountPercentage": 7.9,
+      "rating": 4.7,
+      "stock": 21,
+      "category": "tablets",
+      "thumbnail": "https://picsum.photos/seed/ipadair/400/300"
+    },
+    {
+      "id": 8,
+      "title": "Apple Watch Series 9",
+      "description": "Smartwatch with fitness tracking, notification support, and bright always-on display.",
+      "price": 429,
+      "discountPercentage": 5.6,
+      "rating": 4.6,
+      "stock": 17,
+      "category": "wearables",
+      "thumbnail": "https://picsum.photos/seed/applewatch9/400/300"
+    },
+    {
+      "id": 9,
+      "title": "Canon EOS R50",
+      "description": "Mirrorless camera for content creation with crisp image quality and fast autofocus.",
+      "price": 879,
+      "discountPercentage": 13.2,
+      "rating": 4.7,
+      "stock": 9,
+      "category": "cameras",
+      "thumbnail": "https://picsum.photos/seed/canoneosr50/400/300"
+    },
+    {
+      "id": 10,
+      "title": "JBL Charge 5",
+      "description": "Portable Bluetooth speaker with punchy sound, long battery life, and water resistance.",
+      "price": 179,
+      "discountPercentage": 14.5,
+      "rating": 4.5,
+      "stock": 36,
+      "category": "audio",
+      "thumbnail": "https://picsum.photos/seed/jblcharge5/400/300"
+    }
+  ]
+}
