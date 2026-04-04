@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 549,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "category": "smartphones",
+      "thumbnail": "https://picsum.photos/seed/iphone9/400/300"
+    },
+    {
+      "id": 2,
+      "title": "iPhone X",
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.44,
+      "stock": 34,
+      "category": "smartphones",
+      "thumbnail": "https://picsum.photos/seed/iphonex/400/300"
+    },
+    {
+      "id": 3,
+      "title": "Samsung Universe 9",
+      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "price": 1249,
+      "discountPercentage": 15.46,
+      "rating": 4.09,
+      "stock": 36,
+      "category": "smartphones",
+      "thumbnail": "https://picsum.photos/seed/samsunguniverse9/400/300"
+    },
+    {
+      "id": 4,
+      "title": "Google Pixel 8",
+      "description": "Flagship Android phone with clean software, strong camera quality and smooth performance.",
+      "price": 799,
+      "discountPercentage": 10.5,
+      "rating": 4.6,
+      "stock": 28,
+      "category": "smartphones",
+      "thumbnail": "https://picsum.photos/seed/pixel8/400/300"
+    },
+    {
+      "id": 5,
+      "title": "Xiaomi 14",
+      "description": "Compact smartphone with bright display, fast charging and premium build quality.",
+      "price": 699,
+      "discountPercentage": 11.2,
+      "rating": 4.4,
+      "stock": 41,
+      "category": "smartphones",
+      "thumbnail": "https://picsum.photos/seed/xiaomi14/400/300"
+    },
+    {
+      "id": 6,
+      "title": "OnePlus 12",
+      "description": "High-performance device focused on speed, battery life and a fluid user experience.",
+      "price": 749,
+      "discountPercentage": 9.8,
+      "rating": 4.5,
+      "stock": 33,
+      "category": "smartphones",
+      "thumbnail": "https://picsum.photos/seed/oneplus12/400/300"
+    },
+    {
+      "id": 7,
+      "title": "Oppo Reno 11",
+      "description": "Stylish smartphone with vivid screen, dependable battery and portrait-focused cameras.",
+      "price": 529,
+      "discountPercentage": 13.4,
+      "rating": 4.3,
+      "stock": 52,
+      "category": "smartphones",
+      "thumbnail": "https://picsum.photos/seed/opporeno11/400/300"
+    },
+    {
+      "id": 8,
+      "title": "Vivo V30",
+      "description": "Balanced mid-range phone with sleek design, crisp display and solid day-to-day performance.",
+      "price": 489,
+      "discountPercentage": 8.9,
+      "rating": 4.2,
+      "stock": 47,
+      "category": "smartphones",
+      "thumbnail": "https://picsum.photos/seed/vivov30/400/300"
+    }
+  ]
+}
