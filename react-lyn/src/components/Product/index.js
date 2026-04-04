@@ -17,7 +17,7 @@ function Product() {
                 <h2 className="product-page__title">Danh sach san pham</h2>
             </div>
             <CreateProduct onReload={handleReload}></CreateProduct>
-            <ProductList reload={reload} />
+            <ProductList reload={reload} onReload={handleReload} />
         </section>
     );
 }

@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
+import DeleteProduct from "../deleteProduct";
+import EditProduct from "../editProduct";
+import { getProductList } from "../../services/productService";
 
 function ProductList(props) {
-    const { reload } = props;
+    const { reload, onReload } = props;
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState("");
@@ -11,14 +14,8 @@ function ProductList(props) {
             try {
                 setLoading(true);
                 setError("");
-                const response = await fetch("http://localhost:3002/products");
-
-                if (!response.ok) {
-                    throw new Error("Khong the tai du lieu san pham.");
-                }
-
-                const data = await response.json();
-                setProducts((data || []).slice().reverse());
+                const result = await getProductList();
+                setProducts((result || []).slice().reverse());
             } catch (err) {
                 setError(err.message || "Da co loi xay ra.");
             } finally {
@@ -58,6 +55,10 @@ function ProductList(props) {
                                 <div className="product-card__meta">
                                     <span className="product-card__price">${product.price}</span>
                                     <span className="product-card__rating">Rating {product.rating}</span>
+                                </div>
+                                <div className="product-card__actions">
+                                    <EditProduct product={product} onReload={onReload} />
+                                    <DeleteProduct product={product} onReload={onReload} />
                                 </div>
                             </div>
                         </article>
